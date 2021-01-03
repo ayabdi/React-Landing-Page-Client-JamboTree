@@ -1,0 +1,138 @@
+.container{
+    width: 80%;
+}
+.intro {
+    display: table;
+    width: 100%;
+    padding: 0;
+    background: url(../../assets/headerbackground.jpg) center center no-repeat;
+    background-color: #e5e5e5;
+}
+.intro .overlay {
+    background: rgba(0,0,0,0.35);
+}
+header .intro-text {
+    padding-top: 170px;
+    padding-bottom: 250px;
+    text-align: center;
+}
+.header-logo{
+    height: 150px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.intro h1 {
+
+    color: #d3ebb8;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.intro p {
+    color: #DEEBB8;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.btn-custom {
+    font-family: "Montserrat", sans-serif !important;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #F58220 ;
+    /* background-image: linear-gradient(to right, #F58220 0%, #1D2E17  100%); */
+    padding: 14px 34px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 25px;
+    
+    border: 0;
+    transition: transform 0.2s ease;
+    a{
+        color: #ffffff;
+        font-size: 18px;
+        text-decoration: none !important;
+      }
+      
+      a:hover{
+        color: #ffffff;
+      }
+      
+      &:hover {
+        transform: translateY(-2.2px);
+      }
+    
+      &:active {
+        transform: translateY(2px);
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+      }
+    
+      &:focus {
+        outline: none;
+      }
+    
+}.btn-custom:hover{
+    color: #fff
+}
+/* @media(min-width: 1400px){
+    .container {
+        width: 180px;
+    }
+} */
+
+/**/
+
+@media (min-width: 768px){
+.container {
+    width: 750px;
+}
+.col-md-8 {
+    width: 66.66666667%;
+}
+.col-md-offset-2 {
+    margin-left: 14.66666667%;
+}
+.intro h1 {
+    font-size: 62px;
+}
+.intro p {
+    font-size: 22px;
+}.header-logo{
+    height: 234px;
+    width: 319px;
+    margin-bottom: 10px;
+}
+}
+
+@media (min-width: 992px){
+    .container {
+        width: 970px ;
+    }
+    .col-md-offset-2 {
+        margin-left: 28.66666667% ;
+    }
+    }
+
+    @media (min-width: 1200px){
+        .container {
+            width: 1180px;
+        }
+        .col-md-offset-2 {
+            margin-left: 37.66666667%;
+        }
+        } 
+     @media (min-width: 1600px) {
+         .intro{
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+        }
+        }
