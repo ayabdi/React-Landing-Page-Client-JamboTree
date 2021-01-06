@@ -34,12 +34,12 @@ const toggledeactive = () => {
           </li>
           <li>
             <a href="#" className="nav-links">
-              Products
+              About Us
             </a>
           </li>
           <li>
             <a href="#" className="nav-links">
-              About Us
+              Products
             </a>
           </li>
           <li>
