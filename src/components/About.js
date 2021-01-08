@@ -1,9 +1,9 @@
 import React from "react";
-import "./css/About.scss";
+import "./css/Common.scss";
 import aboutimage from '../assets/aboutphoto.png'
 const About = () => {
   return (
-    <div className="about">
+    <div className="showcase">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
@@ -11,7 +11,7 @@ const About = () => {
             <img src={aboutimage} className="img-responsive" alt="" />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
-            <div className="about-text">
+            <div className="showcase-text">
               <h2>About Us</h2>
               <p>
                 Jambo Tree is a woman-led, leading grower and exporter of high

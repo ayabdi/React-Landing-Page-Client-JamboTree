@@ -1,54 +1,72 @@
-.about-text h2 {
+.showcase-text h2 {
     text-transform: uppercase;
     margin: 0 0 20px 0;
     font-weight: 800;
     font-size: 26px;
     color: #333;
 }
-.about img {
-    width: 420px;
+.showcase img {
+    width: 340px;
     margin: 50px 0;
-    background: #fff;
-    border: solid 6px #f58220;
+  
+    border: double 10px #f58220;
     box-shadow: 0 0 50px rgba(0,0,0,0.06);
+    
 }
-.about-text p {
+.showcase-text{
+    align-items: center;
+    justify-content: center;
+
+}
+.showcase-text p {
     font-size: 14px;
 }
 
-.about{
+.showcase{
     position: relative;
     padding: 25px 0;
     text-align: left;
     background-color: #d3ebb8;
 }
+.split-item{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
 @media (min-width: 768px){
-    .about img {
+    .showcase img {
         width: 340px;
         margin-left: -20px;
     }
+    .order{
+        order: 1;
+    }
 }
 @media (min-width: 992px) {
-    .about{
+    .showcase{
         padding: 50px 0;
     }
-    .about-text h2 {
+    .showcase-text h2 {
         font-size: 36px;
+        margin-top: 55px;
     }
-    .about-text p {
+    .showcase-text p {
         font-size: 18px;
     }
     .col-md-6 {
         width: 50%;
     }
-    .about img {
+    .showcase img {
         margin: 100px 0;
         margin-left: -10px;
         width: 450px;
     }
 }
 @media (min-width: 1200px) {
-    .about img {
+    .showcase img {
         width: 540px;
         margin-left: -20px;
     }

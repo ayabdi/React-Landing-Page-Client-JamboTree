@@ -33,7 +33,7 @@ const Products = () => {
               </a>
               <div className="service-desc">
                 <h3>{product[0].name}</h3>
-                <p>{product[0].text}</p>
+                {/* <p>{product[0].text}</p> */}
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ const Products = () => {
               <img src={MatureTree}></img>
               <div className="service-desc">
                 <h3>{product[1].name}</h3>
-                <p>{product[1].text}</p>
+                {/* <p>{product[1].text}</p> */}
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ const Products = () => {
               <img src={Flowers}></img>
               <div className="service-desc">
                 <h3>{product[2].name}</h3>
-                <p>{product[2].text}</p>
+                {/* <p>{product[2].text}</p> */}
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Products = () => {
               <img src={Vegetables}></img>
               <div className="service-desc">
                 <h3>{product[3].name}</h3>
-                <p>{product[3].text}</p>
+                {/* <p>{product[3].text}</p> */}
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Products = () => {
               <img src={Spices}></img>
               <div className="service-desc">
                 <h3>{product[4].name}</h3>
-                <p>{product[4].text}</p>
+                {/* <p>{product[4].text}</p> */}
               </div>
             </div>
           </div>

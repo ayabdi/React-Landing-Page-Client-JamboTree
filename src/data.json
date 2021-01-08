@@ -1,28 +1,30 @@
 {
     "Products": [{
-        "img": "/assets/treeseedling1.jpg",
         "name": "Tree Seedlings",
-        "text": ""
+        "text": "Our large and expansive Tree Nursery has a large variety of trees and for different uses including medicinal, fruit, fodder, building, firewood, shade, and ornamental. We focus on keeping stocks of African indigenous varieties which are difficult to find. We have well trained staff who take great care in ensuring seedlings are of good quality.  Prices are kept low by using local resources.  Our company has succeeded admirably in holding true to the vision of providing seedlings for reforestation to perpetuate our renewable resource. Our seedlings for export are of various sizes, ranging from 30cm in height upto to customer requirements."
     },
     {
         "img": "fa fa-cart-arrow-down",
         "name": "Mature Trees",
-        "text": ""
+        "text": ["As mature tree experts in the East AFRICA, we produce high quality big trees ( such as 100yrs old Adansonia Digitata (Baobab)  for sale to landscapers, commercial developers or the private individuals seeking instant appeal and impact. We also offer professional big tree relocation and installation services for film industries, municipalities, building contractors and private residentials who need expert advice and assistance." , "If you are a Developer, Landscape Designer, Garden Designer, Horticulturalist contacts us to transform your landscape instantly. Our Trees  are shipped in Open Top Sea Containers to the Middle -East, Europe, Asia , Americas and other parts of the world.. Legal documentation is available for all Trees Talk to our qualified staff to discuss your projects requirements and seek a Quote for supply."]
     },
     {
         "img": "fa fa-cloud-download",
         "name": "Flowers & Plants",
-        "text": ""
+        "text": ["We stock a wide selection of plants ranging from the exotic to the more familiar tried and tested ornamental species with a selection of native local plants. Our range of plants include mature palms and trees grown or imported to order, acclimatized and then released to the market with our guarantee. We offer a similar service for shrubs, vines, ground covers and seasonal flowers."
+                 , "We supply quality flowers in for export in a socially and environmentally responsible manner, geared towards satisfying customer needs while providing value to shareholders in dynamic and challenging atmosphere for employees. We specialize in rose species, and also other flower species"]
     },
     {
         "img": "fa fa-language",
         "name": "Exotic Fruits & Vegetables",
-        "text": ""
+        "text": ["We grow, harvest, process, package grains, tubers, fruits, vegetables for export. These includes green grams, french beans, white/yellow beans, fine beans, snow peas, oranges, tangerines, avocado, apple mangoes, macadamia, long chilies, bullet chilies, passion fruits, papaya, aubergine, sugar snaps & mange tout."
+                 ,"All products are grown under Good Agricultural Practices and we are BRC, HACCP and Global Gap certified."]
     },
     {
         "img": "fa fa-plane",
         "name": "Herbs & Spices",
-        "text": ""
+        "text": ["Jambo Tree is one of the leading growers and exporters of herbs i.e. Basil, Thyme, Rosemary, Mint, Lemon verbena, Melissa, Sage, Corriander, Dill, Chives, Oregano, Marjoram, French Tarragon . Our other products, Lovage, Birdseye Chilies, German Chamomile, Flat Parsley and Curled Parsley.",
+                  "Our Zanzibar Spices range includes 27 varieties of dried and grounded spices such as Tea Masala, Pilau Masala, Cloves, Cardamom and specific African masalas such as Ethiopian Berber spice and Githeri Masala."]
     }
   
 ]
